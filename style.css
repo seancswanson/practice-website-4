@@ -1,0 +1,157 @@
+* {
+    font-family: , sans-serif;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, .2);
+    font-family: 'Muli', sans-serif;
+    letter-spacing: 2px;
+}
+
+html {
+    background-image: linear-gradient( rgba(0, 0, 0, .1), rgba(255, 255, 255, 0.5)), url(https://static.pexels.com/photos/1139/black-and-white-city-skyline-buildings.jpg);
+    background-attachment: fixed;
+}
+
+#logo1 {
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    background: rgba(255,255,255,.5);
+    padding:0px 60px;
+    border-radius: 200px;
+}
+
+
+/** Navigation */
+
+.containernav {
+    background-color: black;
+}
+
+nav.containernav1 {}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: table;
+    width: 100%;
+}
+
+nav ul li {
+    display: table-cell;
+    border-right: 1px solid #d4d4d4;
+    padding: 20px;
+    text-align: center;
+}
+
+ul li:last-child {
+    border-right: none;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 6px 100px;
+}
+
+a:hover {
+    text-shadow: 4px 4px #333;
+    background: #660000;
+}
+
+
+/** Navigation */
+
+hr {}
+
+
+/*Content Images*/
+
+#responsive {
+    max-width: 20%;
+}
+
+#fast {
+    max-width: 20%;
+}
+
+#beautiful {
+    max-width: 25%;
+}
+
+
+/*Content Images*/
+
+
+/* DIV */
+
+.container {
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 50px;
+}
+
+#content {
+    margin: 10px auto;
+    background: rgba(255, 255, 255, .9);
+    width: 60%;
+    padding: 10px 50px;
+}
+
+#content1 {
+  margin-bottom: 30px;
+  width:90%;
+  background: rgba(255,255,255,.9);
+  border-radius: 50px;
+  padding: 10px;
+}
+/* DIV */
+
+
+/*HEADINGS*/
+
+#hello {
+    text-align: center;
+    margin: 0px 30% 70px;
+    padding: 0;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, .8);
+}
+
+#welcome {
+    font-family: 'Permanent Marker', cursive;
+    margin: 0px;
+    padding: 10px;
+    font-size: 6vw;
+    text-shadow: 6px 4px rgba(0,0,0,.1);
+}
+
+#branding {
+
+}
+
+h1 {
+    font-size: 4vw;
+        text-shadow: 6px 4px rgba(0,0,0,.1);
+}
+
+
+.container h2 {
+  font-size: 4vw;
+      text-shadow: 6px 4px rgba(0,0,0,.1);
+}
+
+
+/*HEADINGS*/
+p {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 20%;
+        text-shadow: 6px 4px rgba(0,0,0,.1);
+}
+footer {
+    background-color: black;
+color: white;
+}
